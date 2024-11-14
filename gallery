@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerie de photos interactive</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body onload="initGallery()">
+    <h1>Galerie de photos interactive</h1>
+    <div class="gallery" id="gallery">
+        <img src="image1.jpg" alt="Paysage montagneux" tabindex="0">
+        <img src="image2.jpg" alt="Plage paradisiaque" tabindex="0">
+        <img src="image3.jpg" alt="Forêt dense" tabindex="0">
+        <img src="image4.jpg" alt="Ville moderne la nuit" tabindex="0">
+        <img src="image5.jpg" alt="Désert au coucher du soleil" tabindex="0">
+        <img src="image6.jpg" alt="Cascade impressionnante" tabindex="0">
+    </div>
+</body>
+</html>
